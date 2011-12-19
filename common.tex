@@ -1,0 +1,118 @@
+\documentclass[a4paper,11pt,titlepage]{article}
+
+%Εισαγωγή γλωσσικής υποστήριξης
+%ελληνικό hyphenation
+
+\usepackage[cm-default]{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{xgreek}
+\usepackage[colorlinks]{hyperref}
+\usepackage{enumerate}
+\usepackage{amsmath}
+%η γραμματοσειρά
+%\setmainfont[Mapping=tex-text]{Times New Roman} %απλοποιημένο σε σχέση με το άρθρο
+\setmainfont[Mapping=tex-text]{Linux Libertine} 
+%page orientation
+\usepackage{a4wide}
+\voffset = -0.5in
+\textheight = 664pt
+
+%Άλλα χρήσιμα πακέτα
+\usepackage{graphicx} 	%εισαγωγή εικόνων jpg/png κλπ
+\usepackage{listings}
+\lstset{commentstyle=\textit,
+    captionpos=b,
+    breakatwhitespace=true,
+    showstringspaces=false,
+    breaklines=true,
+    keywordstyle=\color{black}\bfseries,
+    float=htb,
+    frame=single}
+
+%απενεργοποίηση του indent στις νέες παραγράφους
+\parindent=0in
+
+%macro που δίνει το μέγιστο επιτρεπτό μέγεθος σε μια εικόνα χωρίς να παραβιάζει τα όρια του LaTeX
+\makeatletter
+\def\maxwidth{
+	\ifdim\Gin@nat@width>\linewidth
+            \linewidth
+            \else
+            \Gin@nat@width
+            \fi
+    }
+\makeatother
+
+\title{1η Άσκηση\\
+    kn}
+    \author{AxiP}
+    \date{\today}
+
+\begin{document}
+
+\pagestyle{headings}    %αρίθμηση στο πάνω μέρος της σελίδας
+
+%\maketitle
+\begin{titlepage}
+\begin{center}
+\includegraphics[width=50mm]{pyrforos.pdf}\\[0.5cm]
+\textbf{\LARGE ΕΘΝΙΚΟ ΜΕΤΣΟΒΙΟ ΠΟΛΥΤΕΧΝΕΙΟ}\\
+        \textrm{\Large Σχολή Εφαρμοσμένων Μαθηματικών και Φυσικών Επιστημών}\\[2.0cm]
+            \Huge{
+                Εργαστήριο τάδε\\
+            }
+\Large{\textit{o
+    εξάμηνο,
+        ΣΕΜΦΕ}}\\[2.0cm]
+        \Large{\textit{\textbf{όνομα εργασίας}}\\[5.0cm]
+                \normalsize
+
+                \begin{minipage}{0.49\textwidth}
+                \begin{flushleft}
+                                \textbf{Όνομα
+                                    Επώνυμο},
+                                    αρ.φοιτητή
+                                    \end{flushleft}
+                                    \end{minipage}
+                                    \begin{minipage}{0.49\textwidth}
+                                    \begin{flushright}
+                                    \textbf{
+                                        \\
+                                            \textit{Η/Μ
+                                                Παράδοσης:}
+                                        29
+                                            Νοεμβρίου
+                                            2010
+                                    }
+\end{flushright}
+\end{minipage}
+
+%\maketitle
+
+\vfill
+%bottom of the page
+{Αθήνα, 2011}
+
+\end{center}
+\end{titlepage}
+
+\section{Ερώτημα 1}
+
+
+\subsection*{\underline{Λύση:}}
+
+
+\section{Ερώτημα 2}
+
+
+\subsection*{\underline{Λύση:}}
+
+
+\section{Ερώτημα 3}
+
+
+\subsection*{\underline{Λύση:}}
+
+
+\end{document}

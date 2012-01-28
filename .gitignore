@@ -2,4 +2,7 @@
 *.log
 *.swp
 *.out
-
+*.pdf
+*.doc
+*.ods
+*.xls

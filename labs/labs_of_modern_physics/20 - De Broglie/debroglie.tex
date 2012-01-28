@@ -1,0 +1,133 @@
+\documentclass[a4paper,12pt,titlepage]{article}
+
+%Εισαγωγή γλωσσικής υποστήριξης
+%ελληνικό hyphenation
+
+\usepackage[cm-default]{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{xgreek}
+\usepackage[colorlinks]{hyperref}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{float} %Places the float at precisely the location in the LaTeX code.
+%η γραμματοσειρά
+%\setmainfont[Mapping=tex-text]{Times New Roman} %απλοποιημένο σε σχέση με το άρθρο
+\setmainfont[Mapping=tex-text]{Linux Libertine} 
+%page orientation
+\usepackage{a4wide}
+\voffset = -0.5in
+\textheight = 664pt
+
+%Άλλα χρήσιμα πακέτα
+\usepackage{graphicx} 	%εισαγωγή εικόνων jpg/png κλπ
+\usepackage{listings}
+\lstset
+{
+commentstyle=\textit,
+captionpos=b,
+breakatwhitespace=true,
+showstringspaces=false,
+breaklines=true,
+keywordstyle=\color{black}\bfseries,
+float=htb,
+frame=single
+}
+
+%απενεργοποίηση του indent στις νέες παραγράφους
+\parindent=0in
+
+%macro που δίνει το μέγιστο επιτρεπτό μέγεθος σε μια εικόνα χωρίς να παραβιάζει τα όρια του LaTeX
+\makeatletter
+\def\maxwidth{
+\ifdim\Gin@nat@width>\linewidth
+\linewidth
+\else
+\Gin@nat@width
+\fi
+    }
+\makeatother
+
+\title{1η Άσκηση\\kn}
+\author{Axil}
+\date{\today}
+
+\begin{document}
+
+\pagestyle{headings}    %αρίθμηση στο πάνω μέρος της σελίδας
+
+%\maketitle
+\begin{titlepage}
+\begin{center}
+\includegraphics[width=50mm]{pyrforos.pdf}\\[0.5cm]
+\textbf{\LARGE ΕΘΝΙΚΟ ΜΕΤΣΟΒΙΟ ΠΟΛΥΤΕΧΝΕΙΟ}\\
+\textrm{\Large Σχολή Εφαρμοσμένων Μαθηματικών και Φυσικών Επιστημών}\\[2.0cm]
+\Huge{Εργαστήριο Σύγχρονης Φυσικής}\\
+\Large{\textit{5o εξάμηνο, ΣΕΜΦΕ}}\\[2.0cm]
+\Large{\textit{\textbf{Περίθλαση ηλεκτρονίων}}}\\[5.0cm]
+\normalsize
+\begin{minipage}{0.49\textwidth}
+\begin{flushleft}
+\textbf{Πιπινέλλης Αχιλλέας}, 09103163
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+\begin{flushright}
+\textbf{\textit{Η/Μ Παράδοσης:} 21 Νοεμβρίου 2011}
+\end{flushright}
+\end{minipage}
+%\maketitle
+
+\vfill
+%bottom of the page
+{Αθήνα, 2011}
+
+\end{center}
+\end{titlepage}
+
+
+\section{Σκοπός του πειράματος}
+Σκοπός του πειράματος είναι η επιβεβαίωση της υπόθεσης του De Broglie για τα υλικά κύματα. Για να το πετύχουμε θα μελετήσουμε το φαινόμενο της περίθλασης των ηλεκτρονίων μέσα από ένα φύλλο γραφίτη.
+
+
+\section{Λίγη θεωρία}
+
+
+
+
+\section{Μέθοδος πειράματος}
+
+
+
+
+\section{Εκτέλεση πειράματος}
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{ | c | c | c | c|}
+\hline
+$V (KV)$ & $r_{1} (cm)$ & $r_{2} (cm)$ & $\lambda ($\AA$ ) $ \\ \hline
+4.8 & 1.3 & 2.2 & 0.177 \\ \hline
+4.5 & 1.4 & 2.3 & 0.183 \\ \hline
+4.0 & 1.5 & 2.3 & 0.194 \\ \hline
+3.5 & 1.5 & 2.5 & 0.207 \\ \hline
+3.0 & 1.6 & 2.8 & 0.224 \\ \hline
+2.5 & 1.8 & 3.0 & 0.245 \\ \hline
+2.0 & 2.0 & 3.2 & 0.274 \\ \hline
+\end{tabular}
+\end{center}
+\caption{}
+\end{table}
+
+
+\subsection{Σφάλματα}
+
+\begin{tabular}{l | l}
+\hline
+ακτίνα $r$ & $2mm$ \\
+τάση $V$  &  $100V$\\
+μήκος κύματος $\lambda$ & \\
+\hline
+\end{tabular}
+
+\end{document}

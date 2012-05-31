@@ -1,0 +1,133 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Table1	30	3	30 May 2012 11:20:24
+geometry	0	0	398	476	
+header	1[X]	2[Y]	3[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	8	35	45
+1	8.5	35	45
+2	9	35	45
+3	9.5	35	45
+4	10	35	45
+5	10.5	35	45
+6	11	35	45
+7	11.5	35	45
+8	12	35	45
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	30 May 2012 11:34:58
+geometry	402	2	589	480	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	3	-4	571	417
+<PageGeometry>0.00516351	-0.00925926	0.982788	0.965278</PageGeometry>
+PlotTitle	Τάση πηγής $Ε_{Β}$ συναρτήσει του ρεύματος $Ι$ 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#ff0000	4	0.1	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Τάση πηγής $Ε_{Β} (Volt)$	Ρεύμα $Ι (mA)$		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+TitleFont	Asana Math	16	50	0	0	0
+ScaleFont0	Asana Math	12	50	0	0	0
+ScaleFont1	Asana Math	12	50	0	0	0
+ScaleFont2	Asana Math	12	50	0	0	0
+ScaleFont3	Asana Math	12	50	0	0	0
+AxisFont0	Asana Math	11	50	0	0	0
+AxisFont1	Asana Math	11	50	0	0	0
+AxisFont2	Asana Math	11	50	0	0	0
+AxisFont3	Asana Math	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table1_1	Table1_2	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	8	1
+curve	Table1_1	Table1_3	2	1	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	8	1
+scale	0	0	50	5	11	5	0	0
+scale	1	0	50	5	11	5	0	0
+scale	2	0	15	5	4	5	0	0
+scale	3	0	15	5	4	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1.9550561797753</x>
+<y>23.817567567568</y>
+<right>7.17977528089888</right>
+<bottom>12.1621621621622</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) $I=35mA$
+\l(2) $I=45mA$
+</Text>
+<Font>Asana Math	11	50	1	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Ellipse>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>10.532584269663</x>
+<y>32</y>
+<right>10.5191011235955</right>
+<bottom>32</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
+<BrushColor>#ffffff</BrushColor>
+<BrushStyle>0</BrushStyle>
+</Ellipse>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>

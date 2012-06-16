@@ -1,0 +1,165 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	3
+<table>
+Table1	45	2	5/14/12 3:35 PM
+geometry	0	587	448	688	minimized	
+header	U[X]	I/I0[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	100	1
+1	125	1.1
+2	150	0.9
+3	175	0.7
+4	200	0.4
+5	225	1.3
+6	250	0.7
+7	275	0.1
+8	300	0
+9	325	0.3
+10	350	1
+11	375	1.6
+12	400	2.3
+13	425	3
+14	450	3.7
+15	475	4.3
+16	500	5.3
+17	525	5.4
+18	550	5.4
+19	575	4.6
+20	600	5.7
+21	625	11
+22	650	16
+23	675	22.4
+24	700	33.1
+25	725	38.6
+26	750	42.4
+27	775	44.3
+28	800	43.3
+29	825	37.9
+30	850	13.9
+31	875	12.9
+32	900	21.4
+33	925	30.3
+34	950	37.6
+35	975	41.4
+36	1000	43
+37	1025	40
+38	1050	30
+39	1075	21.7
+40	1100	12.9
+41	1125	21.1
+42	1150	29.4
+43	1175	16.1
+44	1200	8.6
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	5/14/12 4:49 PM
+geometry	196	587	801	508	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	779	442
+<PageGeometry>0.00630517	0.0108696	0.982346	0.96087</PageGeometry>
+PlotTitle	Τάση U συναρτήσει της έντασης Ι/Ι0	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	U(Volts)	I/I0		I/I0	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	Sans	13	75	0	0	0
+ScaleFont0	Sans	11	75	0	0	0
+ScaleFont1	Sans	11	75	0	0	0
+ScaleFont2	Sans	11	75	0	0	0
+ScaleFont3	Sans	11	75	0	0	0
+AxisFont0	Sans	11	50	0	0	0
+AxisFont1	Sans	11	50	0	0	0
+AxisFont2	Sans	11	50	0	0	0
+AxisFont3	Sans	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#323232	#323232	#323232	#323232
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table1_U	Table1_I/I0	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	44	1
+scale	0	-10	50	0	7	5	0	0
+scale	1	-10	50	0	7	5	0	0
+scale	2	0	1400	0	8	5	0	0
+scale	3	0	1400	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>35.087719298246</x>
+<y>47.993311036789</y>
+<right>410.215053763441</right>
+<bottom>42.0408163265306</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Sans	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Table2	30	2	5/14/12 6:44 PM
+geometry	0	0	437	587	active
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/3	0;0/3
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+</data>
+</table>
+<open>1</open>

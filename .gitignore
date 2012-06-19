@@ -1,0 +1,10 @@
+*.aux
+*.log
+*.out
+*.backup
+*.directory
+*~
+*.pdf
+*.ods
+*.xls
+*.doc

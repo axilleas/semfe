@@ -21,6 +21,7 @@
 %Custom commands
 \newcommand{\supscript}[1]{\ensuremath{^{\textrm{#1}}}}
 \newcommand{\subscript}[1]{\ensuremath{_{\textrm{#1}}}}
+\newcommand{\degrees}{^{\circ}}
 
 
 %Άλλα χρήσιμα πακέτα
@@ -370,11 +371,59 @@ Q=\Phi q\Delta \cos\theta \Delta t
 
 \subsection*{\underline{Λύση:}}
 
-Σε μία τέτοια διάταξη, ο χρόνος που μεσολαβεί από την εκπομπή μέχρι τη λήψη της ακτινοβολίας laser ισούται με $t=2r/c$, όπου r η μετρούμενη απόσταση. Η αντίστοιχη μετατόπιση φάσης 
+Σε μία τέτοια διάταξη, ο χρόνος που μεσολαβεί από την εκπομπή μέχρι τη λήψη της ακτινοβολίας laser ισούται με $t=2r/c$, όπου r η μετρούμενη απόσταση. Η αντίστοιχη μετατόπιση φάσης είναι $\phi=2\pi ft$, όπου $f$ η συχνότητα του κρυστάλλου. Επομένως
 
-%\section{Άσκηση 13}
+\begin{equation}
+ \phi= \frac{4\pi rf}{c}
+\end{equation}
 
-%\subsection*{\underline{Λύση:}}
+\begin{itemize}
+ \item Για $4.433MHz$ και πχ $r=10m$
+\end{itemize}
+
+\begin{equation}
+ \phi=\frac{4\pi \times10m \times 4.433\times10^{-6}s^{-1}}{3\times10^8ms^{-1}}=0.5911\times\pi=106\degrees
+\end{equation}
+
+Λόγω του τύπου του κυκλώματος που έχουμε σε αυτές τις διατάξεις, η μέγιστη τιμή της $\phi$ είναι $\phi=\pi=180\degrees$. Επομένως η μέγιστη απόσταση που μπορεί να μετρήσει κανείς στα $4.433MHz$ είναι:
+
+\begin{equation}
+ r_{max}=\frac{\phi c}{4\pi f}=\frac{\pi\times 3\times10^8ms^{-1}}{4\pi\times 4.433\times10^{6} s^{-1}}=16.9m
+\end{equation}
+
+\begin{itemize}
+ \item Για $80Hz$ και πχ $r=10m$
+\end{itemize}
+
+$\phi=\pi=180\degrees$ και 
+
+\begin{equation}
+ r^{'}_{max}=\frac{\phi c}{4\pi f}=\frac{\pi\times 3\times10^8ms^{-1}}{4\pi\times 80s^{-1}}=937.5 km
+\end{equation}
+
+\begin{itemize}
+ \item Ακρίβεια
+\end{itemize}
+
+Αν η ελάχιστη ανιχνεύσιμη διαφορά φάσης είναι $\Delta\phi=\pm1/4\degrees$ και η μέγιστη συχνότητα $f_{max}=4.433MHz$ τότε η ελάχιστη ανιχνεύσιμη απόσταση είναι η 
+
+\begin{equation}
+ \Delta r=\frac{\Delta tc}{2}=\frac{\Delta\phi c}{4\pi f}=\frac{\pm 0.25\degrees\times 3\times10^8ms^{-1}}{4\times 180\degrees \times 4.433\times10^6s^{-1}}=\pm\frac{75}{3192}=2.3cm
+\end{equation}
+
+Αν η ελάχιστη ανιχνεύσιμη διαφορά φάσης είναι $\Delta\phi=\pm1/4\degrees$ και η ελάχιστη συχνότητα $f_{min}=80Hz$ τότε η ελάχιστη ανιχνεύσιμη απόσταση είναι η 
+
+\begin{equation}
+ \Delta r=\frac{\Delta tc}{2}=\frac{\Delta\phi c}{4\pi f}=\frac{\pm 0.25\degrees\times 3\times10^8ms^{-1}}{4\times 180\degrees \times 80s^{-1}}=\pm\frac{0.75\times10^8m}{57600}=1.3km
+\end{equation}
+
+\section{Άσκηση 13}
+
+Ο πομπός laser τηλεμέτρου ηχούς παλμών εκπέμπει ενέργεια $W_T$. Να βρεθεί η επιστρέφουσα στον ανιχνευτή του τηλεμέτρου ενέργεια $W_r$ μετά από ανάκλαση σε στόχο σε απόσταση $R$.
+
+\subsection*{\underline{Λύση:}}
+
+
 
 %\section{Άσκηση 14}
 
